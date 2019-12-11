@@ -1,6 +1,7 @@
-import React from 'react'
-import Head from 'next/head'
-import Nav from '../components/nav'
+import React from 'react';
+import Head from 'next/head';
+import Nav from '../components/nav';
+import { make as Hello } from '../components/hello.bs';
 
 const Home = () => (
   <div>
@@ -13,9 +14,7 @@ const Home = () => (
 
     <div className="hero">
       <h1 className="title">Welcome to Next.js!</h1>
-      <p className="description">
-        To get started, edit <code>pages/index.js</code> and save to reload.
-      </p>
+      <div className="description"><Hello /></div>
 
       <div className="row">
         <a href="https://nextjs.org/docs" className="card">
