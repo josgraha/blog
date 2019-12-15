@@ -111,8 +111,11 @@ dist
 .merlin
 lib/
 
+# DotEnv files
+.env
+
 #amplify
-amplify/team-provider-info.json
+amplify/team-provider-*
 amplify/\#current-cloud-backend
 amplify/.config/local-*
 amplify/mock-data
