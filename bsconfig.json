@@ -1,10 +1,10 @@
 {
-  "name": "my-blog",
+  "name": "blog",
   "reason": { "react-jsx": 3 },
   "bsc-flags": ["-bs-super-errors"],
   "sources": [
     {
-      "dir": "components",
+      "dir": "src",
       "subdirs": true
     },
     {
@@ -20,7 +20,7 @@
   ],
   "suffix": ".bs.js",
   "namespace": true,
-  "bs-dependencies": ["reason-react"],
+  "bs-dependencies": ["reason-react", "bs-css"],
   "ppx-flags": [],
   "refmt": 3
 }
