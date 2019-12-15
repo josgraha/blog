@@ -114,6 +114,10 @@ lib/
 # DotEnv files
 .env
 
+# Build artifacts
+build/
+dist/
+
 #amplify
 amplify/team-provider-*
 amplify/\#current-cloud-backend
@@ -121,8 +125,6 @@ amplify/.config/local-*
 amplify/mock-data
 amplify/backend/amplify-meta.json
 amplify/backend/awscloudformation
-build/
-dist/
 aws-exports.js
 awsconfiguration.json
 amplifyconfiguration.json
