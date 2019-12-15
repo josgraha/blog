@@ -1,6 +1,6 @@
 import React from "react";
 import App from "next/app";
-import { make as Page } from "../src/components/Page.bs";
+import { make as Page } from "../src/components/Page/Page.bs";
 
 class BlogApp extends App {
   static async getInitialProps({ Component, ctx }) {

@@ -12,7 +12,7 @@ let make = () => {
   <footer className=Styles.footerStyles>
     <div className="content has-text-centered">
       <p>
-        <strong> {"My Blog " |> str} </strong>
+        <strong> {"Blog " |> str} </strong>
         {"was made with ReasonML ReasonReact and Next.js" |> str}
       </p>
     </div>

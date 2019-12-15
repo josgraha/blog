@@ -27,7 +27,7 @@ function Footer(Props) {
               className: footerStyles
             }, React.createElement("div", {
                   className: "content has-text-centered"
-                }, React.createElement("p", undefined, React.createElement("strong", undefined, "My Blog "), "was made with ReasonML ReasonReact and Next.js")));
+                }, React.createElement("p", undefined, React.createElement("strong", undefined, "Blog "), "was made with ReasonML ReasonReact and Next.js")));
 }
 
 var make = Footer;
