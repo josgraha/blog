@@ -1,0 +1,3 @@
+[submodule "amplify"]
+	path = amplify
+	url = git@github.com:josgraha/amplify.git

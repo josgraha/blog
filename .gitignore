@@ -115,6 +115,7 @@ lib/
 .env
 
 # amplify config
+amplify/
 
 # Build artifacts
 build/
