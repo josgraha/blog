@@ -1,17 +1,23 @@
 import React from "react";
 import App from "next/app";
-import { make as Page } from "../src/components/Page/Page.bs";
+import { ApolloProvider } from "@apollo/react-common";
+
+import { withApollo } from "../src/util/withApollo";
+
+const Page = require("../src/components/layout/Page.bs").make;
 
 class BlogApp extends App {
   render() {
-    const { Component, pageProps } = this.props;
+    const { Component, pageProps, apolloClient } = this.props;
 
     return (
-      <Page>
-        <Component {...pageProps} />
-      </Page>
+      <ApolloProvider client={apolloClient}>
+        <Page>
+          <Component {...pageProps} />
+        </Page>
+      </ApolloProvider>
     );
   }
 }
 
-export default BlogApp;
+export default withApollo(BlogApp);
